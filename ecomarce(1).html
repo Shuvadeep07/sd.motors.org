@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+*{
+margin:0;
+font-family:0;
+border:border-box;
+
+}
+#ss1{
+background-color:black;
+}
+
+.navbar{
+height:50px;
+background-color:black;
+color:#ffffff;
+display:flex;
+align-items:center;
+}
+.nav-logo{
+height:50px;
+width:80px;
+}
+.logo{
+background-image:url("logo.png");
+background-size:cover;
+object-fit:cover;
+height:50px;
+width:100%;
+}
+.border{
+border:2px solid transparent;
+
+}
+.border:hover {
+border:2px solid white ;
+}
+.add-frist{
+color:#cccccc;
+
+}
+.add-second{
+font-size:1rem;
+
+}
+.search-select {
+width:40px;
+text-align:center;
+border-top-left-radius:18px;
+border:none;
+background-color:#121212;
+}
+.search-input {
+
+font-size:1rem;
+border:none;
+background-color:white;
+}
+.nav-search
+{
+display:flex;
+justify-content:space-evenly;
+border-radius:50px;
+width:70%;
+background-image:url (2);
+display:;
+}
+input[type]{
+color:red;
+}
+
+.slider{
+display:flex;
+overflow-x:auto;
+scroll-snap-type:mandatory;
+sceoll-behavior:smooth;
+aspect-ratio:16/9;
+box-shadow:0 1.5rem 3rem-0.75rem hsla(0,0%,0%,0.25);
+}
+.box1{
+background-image:url('b7.jpeg');
+background-size:cover;
+
+}
+.box2{
+background-image:url('l.jpeg');
+background-size:cover;
+}
+.box3{
+background-image:url('r.jpg');
+background-size:cover;
+}
+.p1{
+color:white;}
+.bslider{
+display:flex;
+overflow-x:auto;
+sceoll-behavior:smooth;
+aspect-ratio:5/9;
+height:600px;
+}
+.search-icon{
+width:35px;
+display:flex;
+justify-content:center;
+}
+a{
+text-decoration:none;
+color:gray;
+}
+[placeholder]{
+width:380px;
+height:30px;
+background-color:pink;
+color:black;}
+
+button[type]{
+height:35px;
+background-color:#330000;
+color:white;
+}
+
+footer{
+border:2px solid black;
+background-color:#121212;
+}
+.f7{
+width:100%;
+padding:12px;
+background-color:#ff0000;
+text-align:center;
+border:none;
+color:#ffffff;
+font-weight:700;
+text-transform:uppercase;
+cursor:pointer;
+border-radius:4px;
+
+}
+.f8{
+display:flex;
+gap:20px;}
+.hero-section{
+background-image:url("l.jpeg");
+height:500px;
+background-size:cover;
+}
+.hero-msg{
+color:orange;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:0.85rem;
+font-size:30px;
+font-weight:1000;
+}
+.shop{
+display:flex;
+justify-content:space-evenly;
+background-color:#e2e7e6;
+}
+.box{
+height:120px;
+border:2px solid black;
+width:31%;
+background-color:white;
+}
+.progress{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:3px;
+animation:growprogress 2s  liner;
+background-color:#ffffff;
+transform-origin:0 50%;
+animation:growprogress 1s linear;
+animation-timeline:scroll();
+}
+@keyframes growprogress{
+from{
+transform:scaleX(0);
+}
+to{
+transform:scaleX(1);
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="navbar">
+<div class="nav-logo border" >
+<div class="logo" ></div>
+</div>
+<div class="nav-adress bordera" >
+<p class="add-frist" >Deliver to</p>
+<div class="add-icon" >
+<p class="add-second" >India</p>
+</div>
+</div>
+<div class="nav-search" >
+<select class="search-select" >
+<option>All</option>
+</select>
+<div class="search-icon">
+<input placeholder="Search"  > 
+  <form action="/search-results.html" >
+     <button type="submit">Search</button>
+  </form>
+</search>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section>
+<div class="hero-section">
+<div class="hero-msg">
+<p> Where
+ the raw horsepower meets uncompromising elegance.</p>
+</div>
+</div>
+<div class="progress" ></div>
+<div class="shop">
+<div class="box1 box">
+<h5> bmw m series</h5>
+<p>See more</p>
+</div>
+<div class="box2 box">
+<h5>Lamborghini all series</h5>
+<p>See more</p></div>
+<div class="box3 box">
+<h5>Rolls Roice All series </h5>
+<p>See more</p>
+</div>
+</div>
+</section>
+<section id="ss1">
+<div class="slider" >
+<img src="f1.png">
+<img src="f2.png">
+<img src="f3.png">
+<img src="f4.png"> 
+</div><div class="p1" >
+<p>Ferrari 296 Challenge, a track-only racing machine designed specifically for Ferrari’s single-make championship series.</p>
+<ul>
+<li> It is powered by a 3.0-liter twin-turbo V6 engine that pushes out a massive 700 horsepower.</li>
+<li>Unlike the road-going 296 GTB, Ferrari removed the complex hybrid system to save weight and maximize raw racing performance.</li>
+<li>The vehicle features an extreme aerodynamic setup, highlighted by a large swan-neck rear wing that helps generate over 870 kg of track-hugging downforce.</li>
+</ul></div>
+<div class="bslider" >
+<img src="b1.jpeg">
+<img src="b2.jpeg">
+<img src="b3.jpeg">
+<img src="b4.jpeg">
+<img src="b5.jpeg">
+<img src="b6.jpeg">
+<img src="b7.jpeg">
+</div>
+<div class="p2" >
+<h3>BMW M5, a premier high-performance luxury sports sedan.</h3></div>
+<div class="slider" >
+
+</div>
+</section>
+</main>
+<footer>
+    <div id="f1">
+      <h2 >LUXIVO</h2>
+      <p >
+        Reserve your dream sports car today and enjoy maximum speed, safety, and an unforgettable journey behind the wheel.
+      </p>
+      <div id="f2">
+        <a href="#">🌐</a>
+        <a href="#" >📸</a>
+        <a href="#">🐦</a>
+      </div>
+    </div>
+    <div id="f3">
+      <h3>Company</h3>
+      <ul  >
+        <li ><a href="#" transl>Fleet</a></li>
+        <li ><a href="#" >Luxury Brands</a></li>
+        <li ><a href="#" >Pricing</a></li>
+        <li ><a href="#">Locations</a></li>
+        <li ><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div id="f5">
+      <h3>Policies</h3>
+      <ul >
+        <li ><a href="#">Booking Process</a></li>
+        <li ><a href="#">Insurance Policy</a></li>
+        <li ><a href="#">Terms & Conditions</a></li>
+        <li ><a href="#" >Cancellation Policy</a></li>
+      </ul>
+    </div>
+      <h3 >Newsletter</h3>
+      <form ><div class="f6"  > 
+        <input type="email" placeholder="Enter Your Email" style="width: 100%;padding:12px;  background-color: #1a1a1a; border: 1px solid #333; color: #ffffff; box-sizing: border-box;" required />
+  </div>    
+  <button class="f7" >Subscribe Now</button>
+      </div>
+      </form>
+  <div class="f8" >
+      <a href="#">Privacy Policy</a>
+      <a href="#" >Terms of Service</a>
+  </div>
+      </form>
+</footer>
+</body>
+</html>
